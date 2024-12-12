@@ -1,0 +1,21 @@
+
+.nav-logo{
+    width: 160px;
+    margin-left: 50px;
+}
+
+@keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  }
+  
